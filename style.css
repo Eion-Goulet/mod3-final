@@ -274,3 +274,19 @@ color: black;
 
 /* QUALITY WORK */
 
+.quality__container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quality__wrapper {
+ width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 64px 0;
+}
