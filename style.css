@@ -251,7 +251,7 @@ color: black;
   border-color: rgb(226, 232, 240) ;
   height: 66px;
   width: 66px;
-  flex-shrink: 0;
+  flex-shrink: 0;    /* ask mentors--border q's*/
   
 }
 
@@ -271,3 +271,6 @@ color: black;
   font-weight: 500;
   color: rgb(124, 139, 161) ;
 }
+
+/* QUALITY WORK */
+
