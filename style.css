@@ -19,15 +19,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  
 }
 
 span {
   color: rgb(100, 21, 255);
 }
-
-
 
 /* NAVAGATION*/
 
@@ -45,17 +41,17 @@ nav {
 .nav__link--logo {
   display: flex;
   align-items: center;
-font-size: 24px;
-font-weight: 900;
-vertical-align: middle;
-text-size-adjust: 100%;
-line-height: 36px;
-text-decoration: none;
-color: black;
+  font-size: 24px;
+  font-weight: 900;
+  vertical-align: middle;
+  text-size-adjust: 100%;
+  line-height: 36px;
+  text-decoration: none;
+  color: black;
 }
 
 .nav__link--logo:hover {
-  color:  rgb(100, 21, 255);
+  color: rgb(100, 21, 255);
   transition: all 300ms ease;
 }
 
@@ -76,7 +72,6 @@ color: black;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px;
   color: rgb(100, 21, 255);
-  
 }
 
 .nav__link--btn {
@@ -90,7 +85,7 @@ color: black;
 }
 
 .nav__link--btn:hover {
-  background-color: rgb(79, 15, 208)
+  background-color: rgb(79, 15, 208);
 }
 
 /* LANDING */
@@ -134,10 +129,9 @@ color: black;
 }
 
 .landing__input--wrapper {
- position: relative;
+  position: relative;
   width: 100%;
   max-width: 450px;
-  
 }
 
 .landing__input {
@@ -157,7 +151,7 @@ color: black;
   right: 8px;
   bottom: 8px;
   padding: 0 32px;
-  
+
   font-size: 16px;
   font-weight: 700;
   color: white;
@@ -188,10 +182,7 @@ color: black;
   opacity: 0.5;
 }
 
-
 /* FEATURES */
-
-
 
 .features__container {
   width: 100%;
@@ -204,7 +195,6 @@ color: black;
 .card__wrapper {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .features__sub-header {
@@ -231,7 +221,7 @@ color: black;
   font-weight: 500;
   text-align: center;
   margin: 0 auto;
-  color: rgb(124, 139, 161)
+  color: rgb(124, 139, 161);
 }
 
 .card {
@@ -248,11 +238,10 @@ color: black;
   border: solid;
   border-radius: 50%;
   border-width: 1px;
-  border-color: rgb(226, 232, 240) ;
+  border-color: rgb(226, 232, 240);
   height: 66px;
   width: 66px;
-  flex-shrink: 0;    /* ask mentors--border q's*/
-  
+  flex-shrink: 0; /* ask mentors--border q's*/
 }
 
 .card__text--container {
@@ -269,31 +258,89 @@ color: black;
 
 .card__description {
   font-weight: 500;
-  color: rgb(124, 139, 161) ;
+  color: rgb(124, 139, 161);
 }
 
 /* QUALITY WORK */
 
+#quality {
+  padding: 96px 24px;
+}
+
 .quality__container {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .quality__wrapper {
- width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 64px 0;
 }
 
 .quality__text {
-width: 50%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+  width: 45%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-right: 48px ;
+}
+
+.quality__text--sub-header {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700px;
+  letter-spacing: 1.5px;
+}
+
+.quality__text--header {
+  margin-bottom: 24px;
+  font-size: 52px;
+  line-height: 1.25;
+  font-weight: 900;
+  color: #243e63;
+}
+
+.quality__text--para {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #7c8ba1;
+
+}
+
+.quality__text--btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 9999px;
+  background-color: rgb(100, 21, 255);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 300ms ease;
+}
+
+.quality__text--btn:hover {
+  background-color: rgb(79, 15, 208);
+  text-decoration: none;
+}
+
+.quality__img--wrapper {
+   width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.quality__img {
+  width: 100%;
+  max-width: 620px;
+  border: 1px solid;
+  border-color: #e5e7eb;
+  border-radius: 4px;
 }
