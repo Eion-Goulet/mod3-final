@@ -710,3 +710,148 @@ nav {
   background: linear-gradient(135deg, rgb(229, 62, 62), rgb(247, 149, 149));
   border-radius: 8px 8px 0px 0px;
 }
+
+/* TESTIMONIAL */
+
+.testimonial__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.testimonial__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 0;
+}
+
+.testimonial__img-wrapper {
+  width: 50%;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.testimonial__text-wrapper {
+  width: 50%;
+}
+
+.testimonial__img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.testimonial__person-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.testimonial__sub-header {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.testimonial__header {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.testimonial__description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(124, 139, 161);
+  margin-bottom: 40px;
+}
+
+.testimonial__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.testimonial__text {
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgb(74, 85, 104);
+  margin-bottom: 32px;
+}
+
+.testimonial__rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.testimonial__rating .fa-star {
+  color: rgb(246, 173, 85);
+  font-size: 18px;
+}
+
+.testimonial__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__person {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__person-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 24px;
+}
+
+.testimonial__name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.testimonial__occupation {
+  font-size: 16px;
+  color: rgb(124, 139, 161);
+}
+
+.testimonial__btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(237, 242, 247);
+  color: rgb(100, 21, 255);
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.testimonial__btn-wrapper {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.testimonial__btn:hover {
+  background-color: rgb(226, 232, 240);
+}
+
+/* how da heck do i get this line in the middle */
+
+.testimonial__btn-wrapper::before {
+  content: "";
+  width: 1px;
+  height: 24px;
+  background-color: rgb(203, 213, 224);
+  order: 2;
+}
