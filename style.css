@@ -11,7 +11,6 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
 }
 
 .container {
@@ -95,7 +94,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 64px 0;
+  padding: 80px 0;
 }
 
 .landing__text {
@@ -188,7 +187,7 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 80px 0px;
   text-align: center;
 }
 
@@ -264,7 +263,7 @@ nav {
 /* QUALITY WORK */
 
 #quality {
-  padding: 96px 24px;
+  padding: 80px 0px;
 }
 
 .quality__container {
@@ -350,7 +349,7 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 80px 0px;
 }
 
 .steps__wrapper {
@@ -426,7 +425,7 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 80px 0px;
 }
 
 .values__wrapper {
@@ -549,7 +548,7 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 80px 0px;
 }
 
 .pricing__header--container {
@@ -717,14 +716,13 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
 }
 
 .testimonial__wrapper {
   display: flex;
   align-items: center;
   gap: 64px;
-  padding: 96px 0;
+  padding: 80px 0;
 }
 
 .testimonial__img-wrapper {
