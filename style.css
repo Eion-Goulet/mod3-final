@@ -853,3 +853,65 @@ nav {
   background-color: rgb(203, 213, 224);
   order: 2;
 }
+
+/* GET STARTED */ 
+
+.get-started__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.get-started__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  padding: 96px;
+  line-height: 1.5;
+}
+
+.get-started__heading {
+  width: 50%;
+  color: white;
+  font-size: 30px;
+}
+
+.get-started__btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.get-started__btn,
+.get-started__contact-btn {
+  padding: 20px 40px;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.get-started__btn {
+  background-color: rgb(245, 101, 101);
+  color: white;
+  border: none;
+}
+
+.get-started__btn:hover {
+  background-color: rgb(229, 62, 62);
+}
+
+.get-started__contact-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(160, 174, 192);
+}
+
+.get-started__contact-btn:hover {
+  background-color: white;
+  color: rgb(100, 21, 255);
+}
