@@ -213,7 +213,6 @@ nav {
 
 .features__description {
   max-width: 576px;
-  margin: 16px auto 48px;
   padding-top: 20px;
   padding-bottom: 64px;
   font-size: 18px;
@@ -292,7 +291,7 @@ nav {
 .quality__text--sub-header {
   margin-bottom: 16px;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   letter-spacing: 1.5px;
 }
 
@@ -583,7 +582,7 @@ nav {
 }
 
 .plan {
-  width: calc(100 / 3);
+  width: calc(100% / 3);
   text-align: center;
   border: 1px solid;
   border-color: rgb(226, 232, 240);
@@ -643,7 +642,6 @@ nav {
 }
 
 .plan__features {
-  padding: 32px 24px;
   border-top: 2px solid rgb(226, 232, 240);
   border-bottom: 2px solid rgb(226, 232, 240);
 }
@@ -746,6 +744,8 @@ nav {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 24px;
 }
 
 .testimonial__sub-header {
@@ -804,13 +804,6 @@ nav {
   align-items: center;
 }
 
-.testimonial__person-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 24px;
-}
 
 .testimonial__name {
   font-size: 20px;
