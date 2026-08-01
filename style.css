@@ -102,18 +102,18 @@ nav {
 }
 
 .landing__img--container {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
 .landing__img {
   width: 100%;
-  max-width: 500px;
+  max-width: 760px;
 }
 
 .landing__header {
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.15;
   color: rgb(26, 32, 44);
