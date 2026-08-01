@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/c38bc68eaf.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -29,7 +30,21 @@
             <a href="#" class="nav__link">Log In</a>
             <a href="#" class="nav__link--btn">Sign Up</a>
           </div>
+          <button class="nav__burger" aria-label="Open navigation menu"  onclick="openMenu()">
+             <i class="fa-solid fa-bars"></i>
+             </button>
         </nav>
+        <div class="nav__mobile-menu" id="mobileMenu">
+           <button class="nav__mobile-close" id="closeMenuBtn" aria-label="Close navigation menu" onclick="closeMenu()">
+           <i class="fa-solid fa-xmark"></i>
+            </button>
+          <a href="#" class="nav__mobile-link">About</a>
+          <a href="#" class="nav__mobile-link">Blog</a>
+          <a href="#" class="nav__mobile-link">Pricing</a>
+          <a href="#" class="nav__mobile-link">Contact Us</a>
+          <a href="#" class="nav__mobile-link">Log In</a>
+          <a href="#" class="nav__mobile-link nav__mobile-link--btn">Sign Up</a>
+        </div>
       </header>
       <div class="container">
         <div class="landing__wrapper">
