@@ -1186,7 +1186,7 @@ footer {
 }
 
 .steps__img--wrapper,
-.steps__text {
+.steps__text--wrapper {
   width: 100%;
   max-width: 448px;
   margin: 48px 0;
@@ -1213,7 +1213,7 @@ footer {
   text-align: center;
 }
 
-.steps__text {
+.steps__text--wrapper {
   max-width: 100%;
   text-align: center;
   align-items: center;
@@ -1262,7 +1262,7 @@ footer {
   justify-content: center;
 }
 
-.values__feature--description {
+.values__feature--text {
   text-align: center;
   width: 100%;
   max-width: 320px;
@@ -1411,7 +1411,7 @@ footer {
   margin-top: 24px;
 }
 
-.get-started__header {
+.get-started__heading {
   font-size: 24px;
   line-height: 1.3;
 }
